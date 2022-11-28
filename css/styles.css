@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* Leah Bernhardt */
+
+body {
+	color: #ffffff;
+	justify-content: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../Images/Front-business-2.jpg);	/* Background is property of ©2022 Bungie, Inc. All rights reserved. For academic purposes only.*/
+	margin-top: 184px;
+}
+h1 {
+	font-style: normal;
+	font-size: 64px;
+	text-align: center;
+	font-family: Georgia;
+	font-weight: 400;
+	margin-bottom: 11px;
+	border-radius: 32px;
+	border-width: 36px;
+	border-color: #FFFFFF;
+	margin-top: 44px;
+}
+aside h1 small {
+	font-size: xx-large;
+	font-fmaily: Comfortaa;
+}
+
+
+aside {
+    text-align: center;
+    clear: both;
+    -webkit-box-shadow: -1px -1px 0px 13px;
+    box-shadow: -1px -1px 0px 13px;
+    border-radius: 24px;
+    margin-left: -28px;
+}
+
+section {
+    background-color: #FFFFFF;
+    /*background-color: rgba(255, 255, 255, .5);*/
+    color: #000000;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    float: none;
+    clear: both;
+    font-size: large;
+    margin-top: 45px;
+}
+
+
+
+
+h2 {
+	font-family: 'Comfortaa', cursive;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	font-size: 2em;
+}
+section {
+}
+section p b {
+}
+body section p {
+	font-size: 23px;
+}
+
+
+
+p {
+font-family: 'Comfortaa', cursive;
+}
+
+
+h3 {
+	text-decoration: none;
+	text-align: center;
+}
+footer {
+	font-family: 'Comfortaa', cursive;
+	font-size: small;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
+	height: 34px;
+	padding-top: 10px;
+	vertical-align: baseline;
+	margin-left: -80px;
+}
+header {
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 18px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    border-radius: 0px;
+}
+
+button {
+  margin: 20px;
+}
+/*.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}*/
+
+.custom-btn {
+	padding: 10px 25px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 78px;
+	margin-left: -7px;
+}
+
+
+/* 13 */
+.btn-13 {
+    background-color: #2E9346;
+    background-image: -webkit-linear-gradient(135deg,rgba(150,247,162,1.00) 0%,rgba(5,228,51,1.00) 74%);
+    background-image: -moz-linear-gradient(135deg,rgba(150,247,162,1.00) 0%,rgba(5,228,51,1.00) 74%);
+    background-image: -o-linear-gradient(135deg,rgba(150,247,162,1.00) 0%,rgba(5,228,51,1.00) 74%);
+    background-image: linear-gradient(315deg,rgba(150,247,162,1.00) 0%,rgba(5,228,51,1.00) 74%);
+    border: none;
+    z-index: 1;
+
+}
+.btn-13:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+   background-color: #4dccc6;
+background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-13:hover {
+  color: #fff;
+}
+.btn-13:hover:after {
+  top: 0;
+  height: 100%;
+}
+.btn-13:active {
+  top: 2px;
+}
+blockquote p br {
+	text-align: center;
+	float: none;
+
+}
+p {
+	float: none;
+	text-align: center;
+}
+h3 {
+	float: none;
+	text-align: center;
+	border-radius: 0px;
+}
+
+.frame a .custom-btn.btn-13 {
+	text-align: center;
+
+
+}
+body section h3 {
+	margin-left: -652px;
+}
+body {
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 62px;
+}
+
+section h1 b {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	font-size: 60px;
+}
